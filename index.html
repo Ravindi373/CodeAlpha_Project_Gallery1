@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="gallery-container">
+        <h1>Gallery</h1>
+        
+        <div class="gallery">
+            <button class="nav-btn prev-btn">&lt;</button>
+            
+            <div class="image-container">
+                <img src="images/tiger.jpg" alt="Tiger in golden sunlight" class="active">
+                <img src="images/blue-bird.jpg" alt="Blue bird on cherry blossom branch">
+                <img src="images/elephant-waterhole.jpg" alt="Elephant by the waterhole at sunset">
+            </div>
+            
+            <button class="nav-btn next-btn">&gt;</button>
+        </div>
+        
+        <div class="thumbnail-container">
+            <div class="thumbnail active" data-index="0">
+                <img src="images/tiger.jpg" alt="Tiger thumbnail">
+            </div>
+            <div class="thumbnail" data-index="1">
+                <img src="images/blue-bird.jpg" alt="Blue bird thumbnail">
+            </div>
+            <div class="thumbnail" data-index="2">
+                <img src="images/elephant-waterhole.jpg" alt="Elephant waterhole thumbnail">
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html> 
