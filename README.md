@@ -13,7 +13,7 @@ A responsive image gallery showcasing beautiful photographs. Built with HTML, CS
 
 ## Live Demo
 
-You can view the live demo at: https://[your-github-username].github.io/gallery/
+You can view the live demo at: [Gallery Demo](https://ravindi373.github.io/CodeAlpha_Project_Gallery1/)
 
 ## Setup
 
